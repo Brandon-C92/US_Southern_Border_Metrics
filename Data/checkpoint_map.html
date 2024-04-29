@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f02ae5856d56814480822a9a6b98242e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f02ae5856d56814480822a9a6b98242e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f02ae5856d56814480822a9a6b98242e = L.map(
+                "map_f02ae5856d56814480822a9a6b98242e",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_24cc6b3eb917c2cb314f8a2acf2ade2d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_24cc6b3eb917c2cb314f8a2acf2ade2d.addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+            var marker_913dd8ed62f832a1d799a7505660233a = L.marker(
+                [33.3525, -117.525555555556],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_7bb9e0853ea2a7be2d735fe91dfb3976 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb7452a0972cf3296bd15283eae140e1 = $(`<div id="html_cb7452a0972cf3296bd15283eae140e1" style="width: 100.0%; height: 100.0%;">San Clementes Checkpoint</div>`)[0];
+                popup_7bb9e0853ea2a7be2d735fe91dfb3976.setContent(html_cb7452a0972cf3296bd15283eae140e1);
+            
+        
+
+        marker_913dd8ed62f832a1d799a7505660233a.bindPopup(popup_7bb9e0853ea2a7be2d735fe91dfb3976)
+        ;
+
+        
+    
+    
+            var marker_05a776f3ce3a54b402e761af761081ba = L.marker(
+                [33.4469444444444, -117.134722222222],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_1ca7794fadbf285bdcbd8928fd3c0e31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_122097fd0945051de97aa92eb2293b9c = $(`<div id="html_122097fd0945051de97aa92eb2293b9c" style="width: 100.0%; height: 100.0%;">Temecula Checkpoint</div>`)[0];
+                popup_1ca7794fadbf285bdcbd8928fd3c0e31.setContent(html_122097fd0945051de97aa92eb2293b9c);
+            
+        
+
+        marker_05a776f3ce3a54b402e761af761081ba.bindPopup(popup_1ca7794fadbf285bdcbd8928fd3c0e31)
+        ;
+
+        
+    
+    
+            var marker_ec65b3715d6e9dcb58e5c07eea76a5e6 = L.marker(
+                [32.7972222222222, -116.496388888889],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_c22ed63e69b1e86ce4dc4f6466cf7e9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae3318e93606944572ed36eebcec28b0 = $(`<div id="html_ae3318e93606944572ed36eebcec28b0" style="width: 100.0%; height: 100.0%;">I-8 West Checkpoint</div>`)[0];
+                popup_c22ed63e69b1e86ce4dc4f6466cf7e9f.setContent(html_ae3318e93606944572ed36eebcec28b0);
+            
+        
+
+        marker_ec65b3715d6e9dcb58e5c07eea76a5e6.bindPopup(popup_c22ed63e69b1e86ce4dc4f6466cf7e9f)
+        ;
+
+        
+    
+    
+            var marker_ab0f07affa0e86457e71254a82794e55 = L.marker(
+                [32.6641666666667, -116.818611111111],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_8d2556c1dc8f7586aad7ca5cf2009d69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35e8ad8455972a028f03843b7a1cefb1 = $(`<div id="html_35e8ad8455972a028f03843b7a1cefb1" style="width: 100.0%; height: 100.0%;">Highway 94 Checkpoint</div>`)[0];
+                popup_8d2556c1dc8f7586aad7ca5cf2009d69.setContent(html_35e8ad8455972a028f03843b7a1cefb1);
+            
+        
+
+        marker_ab0f07affa0e86457e71254a82794e55.bindPopup(popup_8d2556c1dc8f7586aad7ca5cf2009d69)
+        ;
+
+        
+    
+    
+            var marker_915c7cb251adef03a54abbed1fa1c229 = L.marker(
+                [33.125, -115.854722222222],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_95c4c1426160f82a36e7165482171c87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86556334b53457105144553c8237d104 = $(`<div id="html_86556334b53457105144553c8237d104" style="width: 100.0%; height: 100.0%;">Highway 78/86 Checkpoint</div>`)[0];
+                popup_95c4c1426160f82a36e7165482171c87.setContent(html_86556334b53457105144553c8237d104);
+            
+        
+
+        marker_915c7cb251adef03a54abbed1fa1c229.bindPopup(popup_95c4c1426160f82a36e7165482171c87)
+        ;
+
+        
+    
+    
+            var marker_006adaf05b77be000e5e6dc50feea5b2 = L.marker(
+                [33.3602777777778, -115.644722222222],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_1050a0d650606b80043c736496edeab0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34f4c96b4d4783130fade2b862fc558a = $(`<div id="html_34f4c96b4d4783130fade2b862fc558a" style="width: 100.0%; height: 100.0%;">Highway 111 Checkpoint</div>`)[0];
+                popup_1050a0d650606b80043c736496edeab0.setContent(html_34f4c96b4d4783130fade2b862fc558a);
+            
+        
+
+        marker_006adaf05b77be000e5e6dc50feea5b2.bindPopup(popup_1050a0d650606b80043c736496edeab0)
+        ;
+
+        
+    
+    
+            var marker_582abfa7c46770bb4184a2589225e2cf = L.marker(
+                [33.259464, 14.2432],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_ac051842e379193c45a9087663f0943e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a9899b992a520aec3183331ef2dbd3d = $(`<div id="html_8a9899b992a520aec3183331ef2dbd3d" style="width: 100.0%; height: 100.0%;">#7</div>`)[0];
+                popup_ac051842e379193c45a9087663f0943e.setContent(html_8a9899b992a520aec3183331ef2dbd3d);
+            
+        
+
+        marker_582abfa7c46770bb4184a2589225e2cf.bindPopup(popup_ac051842e379193c45a9087663f0943e)
+        ;
+
+        
+    
+    
+            var marker_94f57158dfc8b2041b33bd8d5a98956b = L.marker(
+                [32.6597222222222, -114.363888888889],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_0b772a5e227c1533872d17466ae69cfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1740f665057b9a4b5807cc7a85b56cc = $(`<div id="html_b1740f665057b9a4b5807cc7a85b56cc" style="width: 100.0%; height: 100.0%;">Yuma Checkpoint</div>`)[0];
+                popup_0b772a5e227c1533872d17466ae69cfe.setContent(html_b1740f665057b9a4b5807cc7a85b56cc);
+            
+        
+
+        marker_94f57158dfc8b2041b33bd8d5a98956b.bindPopup(popup_0b772a5e227c1533872d17466ae69cfe)
+        ;
+
+        
+    
+    
+            var marker_a6fc990e6bc9515f07b8823a9ac773b0 = L.marker(
+                [32.2025, -112.759166666667],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_f9622a693246ced6a082e47cbf01a2a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a58d21c3e2e96be1cc7bf75fb154b8c1 = $(`<div id="html_a58d21c3e2e96be1cc7bf75fb154b8c1" style="width: 100.0%; height: 100.0%;">Why Checkpoint</div>`)[0];
+                popup_f9622a693246ced6a082e47cbf01a2a9.setContent(html_a58d21c3e2e96be1cc7bf75fb154b8c1);
+            
+        
+
+        marker_a6fc990e6bc9515f07b8823a9ac773b0.bindPopup(popup_f9622a693246ced6a082e47cbf01a2a9)
+        ;
+
+        
+    
+    
+            var marker_b32156f4ddeb44b5f0c3ed386be3785f = L.marker(
+                [32.7147222222222, -112.841944444444],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_622bd41dd94dc7b71f80d2a4ff001de6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0e53f1efbdf31a2a58bd829333f0230 = $(`<div id="html_f0e53f1efbdf31a2a58bd829333f0230" style="width: 100.0%; height: 100.0%;">Gila Bend Checkpoint</div>`)[0];
+                popup_622bd41dd94dc7b71f80d2a4ff001de6.setContent(html_f0e53f1efbdf31a2a58bd829333f0230);
+            
+        
+
+        marker_b32156f4ddeb44b5f0c3ed386be3785f.bindPopup(popup_622bd41dd94dc7b71f80d2a4ff001de6)
+        ;
+
+        
+    
+    
+            var marker_0512571b1e5a7c20c76e78fe1cf2a67f = L.marker(
+                [32.5508333333333, -111.929166666667],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_55a18fcccb9038749c4181db7335190e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95b41eb3d575499d0234524cf8db3e12 = $(`<div id="html_95b41eb3d575499d0234524cf8db3e12" style="width: 100.0%; height: 100.0%;">Indian Highway 15 Checkpoint</div>`)[0];
+                popup_55a18fcccb9038749c4181db7335190e.setContent(html_95b41eb3d575499d0234524cf8db3e12);
+            
+        
+
+        marker_0512571b1e5a7c20c76e78fe1cf2a67f.bindPopup(popup_55a18fcccb9038749c4181db7335190e)
+        ;
+
+        
+    
+    
+            var marker_9141bb2c71bbfac99e0dbcb64f7df08d = L.marker(
+                [31.8283333333333, -111.424722222222],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_617ff0812efb7d8c60df24815aa928f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_976301ccdeb31da9131a1918f3bfeefe = $(`<div id="html_976301ccdeb31da9131a1918f3bfeefe" style="width: 100.0%; height: 100.0%;">AZ Hwy 286 Checkpoint</div>`)[0];
+                popup_617ff0812efb7d8c60df24815aa928f4.setContent(html_976301ccdeb31da9131a1918f3bfeefe);
+            
+        
+
+        marker_9141bb2c71bbfac99e0dbcb64f7df08d.bindPopup(popup_617ff0812efb7d8c60df24815aa928f4)
+        ;
+
+        
+    
+    
+            var marker_091d79c6f640634e6ce98c61fc9cb3ac = L.marker(
+                [32.0647222222222, -111.375],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_44cd0a8ac8f4b4369f59d224f43d4b5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ee5940960861609eedfa6a3bb9f7a49 = $(`<div id="html_8ee5940960861609eedfa6a3bb9f7a49" style="width: 100.0%; height: 100.0%;">AZ Hwy 86 Checkpoint</div>`)[0];
+                popup_44cd0a8ac8f4b4369f59d224f43d4b5f.setContent(html_8ee5940960861609eedfa6a3bb9f7a49);
+            
+        
+
+        marker_091d79c6f640634e6ce98c61fc9cb3ac.bindPopup(popup_44cd0a8ac8f4b4369f59d224f43d4b5f)
+        ;
+
+        
+    
+    
+            var marker_1e883ac78f5fe9274211b38350df7f10 = L.marker(
+                [31.7261111111111, -111.079722222222],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_3a117560eccaf75b8c2afc96467b7600 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69c2d55d1218844692c5b203c02eb72a = $(`<div id="html_69c2d55d1218844692c5b203c02eb72a" style="width: 100.0%; height: 100.0%;">Arivaca Road Checkpoint</div>`)[0];
+                popup_3a117560eccaf75b8c2afc96467b7600.setContent(html_69c2d55d1218844692c5b203c02eb72a);
+            
+        
+
+        marker_1e883ac78f5fe9274211b38350df7f10.bindPopup(popup_3a117560eccaf75b8c2afc96467b7600)
+        ;
+
+        
+    
+    
+            var marker_cf042dd433f028330c601f3e6e58b9c9 = L.marker(
+                [31.6616666666667, -111.061111111111],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_493d0bd051f730e3d037fb7bff219b47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaf0d2390fd29851bf476f2eaf5846d4 = $(`<div id="html_eaf0d2390fd29851bf476f2eaf5846d4" style="width: 100.0%; height: 100.0%;">AZ I-19 Checkpoint</div>`)[0];
+                popup_493d0bd051f730e3d037fb7bff219b47.setContent(html_eaf0d2390fd29851bf476f2eaf5846d4);
+            
+        
+
+        marker_cf042dd433f028330c601f3e6e58b9c9.bindPopup(popup_493d0bd051f730e3d037fb7bff219b47)
+        ;
+
+        
+    
+    
+            var marker_0213c57bebebcb6a9751fadf026cc655 = L.marker(
+                [31.7494444444444, -110.349722222222],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_bd7a78938d4ceab1c60ac89c67094d6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cd15fa6f8a659c296c4dcd9ddba71da = $(`<div id="html_9cd15fa6f8a659c296c4dcd9ddba71da" style="width: 100.0%; height: 100.0%;">AZ Highway 90 Checkpoint</div>`)[0];
+                popup_bd7a78938d4ceab1c60ac89c67094d6d.setContent(html_9cd15fa6f8a659c296c4dcd9ddba71da);
+            
+        
+
+        marker_0213c57bebebcb6a9751fadf026cc655.bindPopup(popup_bd7a78938d4ceab1c60ac89c67094d6d)
+        ;
+
+        
+    
+    
+            var marker_26cbd908ffebf41025fc7d9e3d8e277f = L.marker(
+                [31.7491666666667, -110.0975],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_496c2052ac80712feb694aa4a784b198 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db5a337c82d820337188dc6d03fc5fa4 = $(`<div id="html_db5a337c82d820337188dc6d03fc5fa4" style="width: 100.0%; height: 100.0%;">AZ Highway 80 Checkpoint</div>`)[0];
+                popup_496c2052ac80712feb694aa4a784b198.setContent(html_db5a337c82d820337188dc6d03fc5fa4);
+            
+        
+
+        marker_26cbd908ffebf41025fc7d9e3d8e277f.bindPopup(popup_496c2052ac80712feb694aa4a784b198)
+        ;
+
+        
+    
+    
+            var marker_7a6d268a57678d43eb1600fe9645aa8d = L.marker(
+                [32.2502777777778, -107.121111111111],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_c1093af4e52cc44c7e01243fb1f14d57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_230af7dee911d65755bb7bd5f7828a9b = $(`<div id="html_230af7dee911d65755bb7bd5f7828a9b" style="width: 100.0%; height: 100.0%;">I-10 West Checkpoint</div>`)[0];
+                popup_c1093af4e52cc44c7e01243fb1f14d57.setContent(html_230af7dee911d65755bb7bd5f7828a9b);
+            
+        
+
+        marker_7a6d268a57678d43eb1600fe9645aa8d.bindPopup(popup_c1093af4e52cc44c7e01243fb1f14d57)
+        ;
+
+        
+    
+    
+            var marker_460f489388f135a5fe7d01443be680a8 = L.marker(
+                [31.9644444444444, -107.679166666667],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_0109cbbbb2b985f6a1166593dd56dfb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bad2d7043b71d8b01e8e1495f8f832b8 = $(`<div id="html_bad2d7043b71d8b01e8e1495f8f832b8" style="width: 100.0%; height: 100.0%;">Columbus Checkpoint</div>`)[0];
+                popup_0109cbbbb2b985f6a1166593dd56dfb6.setContent(html_bad2d7043b71d8b01e8e1495f8f832b8);
+            
+        
+
+        marker_460f489388f135a5fe7d01443be680a8.bindPopup(popup_0109cbbbb2b985f6a1166593dd56dfb6)
+        ;
+
+        
+    
+    
+            var marker_c0684b2d0f95c968cb2d1a819ba1212d = L.marker(
+                [32.5972222222222, -106.945],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_091c2e0344fab18bfa83cdd5255d81fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1937d517acbc2dbfad02318079ff6c2 = $(`<div id="html_c1937d517acbc2dbfad02318079ff6c2" style="width: 100.0%; height: 100.0%;">I-25 North Checkpoint</div>`)[0];
+                popup_091c2e0344fab18bfa83cdd5255d81fc.setContent(html_c1937d517acbc2dbfad02318079ff6c2);
+            
+        
+
+        marker_c0684b2d0f95c968cb2d1a819ba1212d.bindPopup(popup_091c2e0344fab18bfa83cdd5255d81fc)
+        ;
+
+        
+    
+    
+            var marker_3ae9bacfef6ec881741d7554434f6065 = L.marker(
+                [32.6033333333333, -107.021388888889],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_02ea92851c01c3361fb61cef0528f47c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d74a73daaf8ee22538fef4165197383 = $(`<div id="html_7d74a73daaf8ee22538fef4165197383" style="width: 100.0%; height: 100.0%;">Radium Springs Checkpoint</div>`)[0];
+                popup_02ea92851c01c3361fb61cef0528f47c.setContent(html_7d74a73daaf8ee22538fef4165197383);
+            
+        
+
+        marker_3ae9bacfef6ec881741d7554434f6065.bindPopup(popup_02ea92851c01c3361fb61cef0528f47c)
+        ;
+
+        
+    
+    
+            var marker_04c97506d2fd4f4106968bf6c2e16436 = L.marker(
+                [32.7652777777778, -106.181666666667],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_ed46e5c7735f03feb80e7d2e9c9fa8fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b47c71d220752f2a904209e9792f4d2 = $(`<div id="html_7b47c71d220752f2a904209e9792f4d2" style="width: 100.0%; height: 100.0%;">US 70 Checkpoint</div>`)[0];
+                popup_ed46e5c7735f03feb80e7d2e9c9fa8fc.setContent(html_7b47c71d220752f2a904209e9792f4d2);
+            
+        
+
+        marker_04c97506d2fd4f4106968bf6c2e16436.bindPopup(popup_ed46e5c7735f03feb80e7d2e9c9fa8fc)
+        ;
+
+        
+    
+    
+            var marker_16e73d4961c384a51563bd3d2e0e8c86 = L.marker(
+                [32.5286111111111, -106.028333333333],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_1fb1dbafef5f828b077687205f6a3b3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c8438b3e4a93c5998f7f57f0d4b9faa = $(`<div id="html_7c8438b3e4a93c5998f7f57f0d4b9faa" style="width: 100.0%; height: 100.0%;">Alamogordo Checkpoint</div>`)[0];
+                popup_1fb1dbafef5f828b077687205f6a3b3b.setContent(html_7c8438b3e4a93c5998f7f57f0d4b9faa);
+            
+        
+
+        marker_16e73d4961c384a51563bd3d2e0e8c86.bindPopup(popup_1fb1dbafef5f828b077687205f6a3b3b)
+        ;
+
+        
+    
+    
+            var marker_bf2d7b7e781d0ff84cf5d88543097d64 = L.marker(
+                [31.8263888888889, -105.918055555556],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_65f70378377b4edccec560658cea3290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_852cc55911852981671522d20f41d2b2 = $(`<div id="html_852cc55911852981671522d20f41d2b2" style="width: 100.0%; height: 100.0%;">U.S. Route 62 Checkpoint</div>`)[0];
+                popup_65f70378377b4edccec560658cea3290.setContent(html_852cc55911852981671522d20f41d2b2);
+            
+        
+
+        marker_bf2d7b7e781d0ff84cf5d88543097d64.bindPopup(popup_65f70378377b4edccec560658cea3290)
+        ;
+
+        
+    
+    
+            var marker_3969f6d05471fb07190464f73a3aa458 = L.marker(
+                [31.1916666666667, -105.429722222222],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_ad33deb1ab8e144d67f643e8135c9a50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc98505d20ac47889f4b080533186efc = $(`<div id="html_cc98505d20ac47889f4b080533186efc" style="width: 100.0%; height: 100.0%;">Sierra Blanca Checkpoint</div>`)[0];
+                popup_ad33deb1ab8e144d67f643e8135c9a50.setContent(html_cc98505d20ac47889f4b080533186efc);
+            
+        
+
+        marker_3969f6d05471fb07190464f73a3aa458.bindPopup(popup_ad33deb1ab8e144d67f643e8135c9a50)
+        ;
+
+        
+    
+    
+            var marker_c695893bd10605221db9268bdd0cb0d5 = L.marker(
+                [30.2516666666667, -104.049444444444],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_9ba6e7b4a0c12ccf7735c12433f500fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34e70c3db0741a6f66263d2fdde025f3 = $(`<div id="html_34e70c3db0741a6f66263d2fdde025f3" style="width: 100.0%; height: 100.0%;">#26</div>`)[0];
+                popup_9ba6e7b4a0c12ccf7735c12433f500fa.setContent(html_34e70c3db0741a6f66263d2fdde025f3);
+            
+        
+
+        marker_c695893bd10605221db9268bdd0cb0d5.bindPopup(popup_9ba6e7b4a0c12ccf7735c12433f500fa)
+        ;
+
+        
+    
+    
+            var marker_7aac62b403316a4d4feef56b19047ebc = L.marker(
+                [30.1983333333333, -103.579444444444],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_9e0d69a169cb10bb04558103e6ce4e7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26208fe3306175ef3def6abb57cf287a = $(`<div id="html_26208fe3306175ef3def6abb57cf287a" style="width: 100.0%; height: 100.0%;">Alpine Checkpoint</div>`)[0];
+                popup_9e0d69a169cb10bb04558103e6ce4e7e.setContent(html_26208fe3306175ef3def6abb57cf287a);
+            
+        
+
+        marker_7aac62b403316a4d4feef56b19047ebc.bindPopup(popup_9e0d69a169cb10bb04558103e6ce4e7e)
+        ;
+
+        
+    
+    
+            var marker_0510d1724ac545e884358c6b8ec99887 = L.marker(
+                [30.1377777777778, -103.238333333333],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_2f12b3ad1be50f5206276ca1444fade3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4317191ba73783601acfc8bbfadb930 = $(`<div id="html_e4317191ba73783601acfc8bbfadb930" style="width: 100.0%; height: 100.0%;">#28</div>`)[0];
+                popup_2f12b3ad1be50f5206276ca1444fade3.setContent(html_e4317191ba73783601acfc8bbfadb930);
+            
+        
+
+        marker_0510d1724ac545e884358c6b8ec99887.bindPopup(popup_2f12b3ad1be50f5206276ca1444fade3)
+        ;
+
+        
+    
+    
+            var marker_3aa6a5d30c908a947ea4ee00fe8327ad = L.marker(
+                [28.6258333333333, -100.059166666667],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_5ffd770fdabc59b8e42733b74256dad9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecde235f578fde443c6c59d5e75567c8 = $(`<div id="html_ecde235f578fde443c6c59d5e75567c8" style="width: 100.0%; height: 100.0%;">Carrizo Springs Checkpoint</div>`)[0];
+                popup_5ffd770fdabc59b8e42733b74256dad9.setContent(html_ecde235f578fde443c6c59d5e75567c8);
+            
+        
+
+        marker_3aa6a5d30c908a947ea4ee00fe8327ad.bindPopup(popup_5ffd770fdabc59b8e42733b74256dad9)
+        ;
+
+        
+    
+    
+            var marker_5c3683cd8388385920796d6dc5c6c9fe = L.marker(
+                [29.7133333333333, -100.829444444444],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_7f93b6d14da6eff407f805722dac265b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e17725a492ec42a5b42451ee6d4cb03 = $(`<div id="html_1e17725a492ec42a5b42451ee6d4cb03" style="width: 100.0%; height: 100.0%;">Del Rio Checkpoint</div>`)[0];
+                popup_7f93b6d14da6eff407f805722dac265b.setContent(html_1e17725a492ec42a5b42451ee6d4cb03);
+            
+        
+
+        marker_5c3683cd8388385920796d6dc5c6c9fe.bindPopup(popup_7f93b6d14da6eff407f805722dac265b)
+        ;
+
+        
+    
+    
+            var marker_e414e862792b8172b66fa59df1cdfdf7 = L.marker(
+                [29.2161111111111, -99.9425],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_8c03aa5e971356ae667d45fa51eb8a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_370257b7d0f5b961459fa8833498c3d7 = $(`<div id="html_370257b7d0f5b961459fa8833498c3d7" style="width: 100.0%; height: 100.0%;">Uvalde Checkpoint</div>`)[0];
+                popup_8c03aa5e971356ae667d45fa51eb8a51.setContent(html_370257b7d0f5b961459fa8833498c3d7);
+            
+        
+
+        marker_e414e862792b8172b66fa59df1cdfdf7.bindPopup(popup_8c03aa5e971356ae667d45fa51eb8a51)
+        ;
+
+        
+    
+    
+            var marker_92a72c6e27bedc566510fdb99fa97ff1 = L.marker(
+                [28.7972222222222, -100.368055555556],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_76ce99f6420e6bd76791f9ae6e7f19a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2db51e1a9693990d527c2edcdbf28a7c = $(`<div id="html_2db51e1a9693990d527c2edcdbf28a7c" style="width: 100.0%; height: 100.0%;">Eagle Pass Checkpoint</div>`)[0];
+                popup_76ce99f6420e6bd76791f9ae6e7f19a2.setContent(html_2db51e1a9693990d527c2edcdbf28a7c);
+            
+        
+
+        marker_92a72c6e27bedc566510fdb99fa97ff1.bindPopup(popup_76ce99f6420e6bd76791f9ae6e7f19a2)
+        ;
+
+        
+    
+    
+            var marker_b64b2ac2ed9178ea912ec3fb805b4d7b = L.marker(
+                [27.9869444444444, -99.5275],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_dbfeeb0557e5bcf95c7582bfdd2e4ac6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1b9dc81df4f55b0d3a538620327f599 = $(`<div id="html_b1b9dc81df4f55b0d3a538620327f599" style="width: 100.0%; height: 100.0%;">Laredo 83 Checkpoint</div>`)[0];
+                popup_dbfeeb0557e5bcf95c7582bfdd2e4ac6.setContent(html_b1b9dc81df4f55b0d3a538620327f599);
+            
+        
+
+        marker_b64b2ac2ed9178ea912ec3fb805b4d7b.bindPopup(popup_dbfeeb0557e5bcf95c7582bfdd2e4ac6)
+        ;
+
+        
+    
+    
+            var marker_57f8eef5d4a39527eae5943b3daddfef = L.marker(
+                [27.905, -99.3938888888889],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_35c8c4b3ffb91582129af86ba27faaf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd2d37c44ab8fdeff0f29ecc380b09a8 = $(`<div id="html_dd2d37c44ab8fdeff0f29ecc380b09a8" style="width: 100.0%; height: 100.0%;">Laredo Checkpoint</div>`)[0];
+                popup_35c8c4b3ffb91582129af86ba27faaf8.setContent(html_dd2d37c44ab8fdeff0f29ecc380b09a8);
+            
+        
+
+        marker_57f8eef5d4a39527eae5943b3daddfef.bindPopup(popup_35c8c4b3ffb91582129af86ba27faaf8)
+        ;
+
+        
+    
+    
+            var marker_35fe73c5792c904fdd90efda4ac98d5d = L.marker(
+                [27.7741666666667, -98.8455555555555],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_e77d394c6c782b09a785fb542e4cb43a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_738dd08e7ea96808644d73ed63d16dfd = $(`<div id="html_738dd08e7ea96808644d73ed63d16dfd" style="width: 100.0%; height: 100.0%;">Freer Checkpoint</div>`)[0];
+                popup_e77d394c6c782b09a785fb542e4cb43a.setContent(html_738dd08e7ea96808644d73ed63d16dfd);
+            
+        
+
+        marker_35fe73c5792c904fdd90efda4ac98d5d.bindPopup(popup_e77d394c6c782b09a785fb542e4cb43a)
+        ;
+
+        
+    
+    
+            var marker_71ab17a73a830b7018343c18045eebe9 = L.marker(
+                [27.4433333333333, -98.8875],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_0a5b66bbb3bffe1849804ac27adc75df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_137210e5bd2e97774816a84b5b68d74e = $(`<div id="html_137210e5bd2e97774816a84b5b68d74e" style="width: 100.0%; height: 100.0%;">Oilton Checkpoint</div>`)[0];
+                popup_0a5b66bbb3bffe1849804ac27adc75df.setContent(html_137210e5bd2e97774816a84b5b68d74e);
+            
+        
+
+        marker_71ab17a73a830b7018343c18045eebe9.bindPopup(popup_0a5b66bbb3bffe1849804ac27adc75df)
+        ;
+
+        
+    
+    
+            var marker_16f1791d9d3b7e11f4887a7e7e2b2785 = L.marker(
+                [27.2830555555556, -98.6933333333333],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_e93fbe2d297612d339c8c02cf4f21ef5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7486077d25fd9ee9b22a6141697e793d = $(`<div id="html_7486077d25fd9ee9b22a6141697e793d" style="width: 100.0%; height: 100.0%;">Hebbronville Checkpoint</div>`)[0];
+                popup_e93fbe2d297612d339c8c02cf4f21ef5.setContent(html_7486077d25fd9ee9b22a6141697e793d);
+            
+        
+
+        marker_16f1791d9d3b7e11f4887a7e7e2b2785.bindPopup(popup_e93fbe2d297612d339c8c02cf4f21ef5)
+        ;
+
+        
+    
+    
+            var marker_ef3e2adbdcc19fd72277cca26d456f69 = L.marker(
+                [27.2966666666667, -98.6630555555556],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_da5aedbaf56b3c9bb5efa0ffeb800ff2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d02f30d6510cc98f497e35bc26fd565a = $(`<div id="html_d02f30d6510cc98f497e35bc26fd565a" style="width: 100.0%; height: 100.0%;">Hebbronville2 Checkpoint</div>`)[0];
+                popup_da5aedbaf56b3c9bb5efa0ffeb800ff2.setContent(html_d02f30d6510cc98f497e35bc26fd565a);
+            
+        
+
+        marker_ef3e2adbdcc19fd72277cca26d456f69.bindPopup(popup_da5aedbaf56b3c9bb5efa0ffeb800ff2)
+        ;
+
+        
+    
+    
+            var marker_ab05d91a878e00f9d6e1d53e41554c23 = L.marker(
+                [27.025, -98.1383333333333],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_233efc2b42eaa1d4f44822c9d1fcba9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce369f22049483ced9b5be62baf1eea9 = $(`<div id="html_ce369f22049483ced9b5be62baf1eea9" style="width: 100.0%; height: 100.0%;">Falfurrias Checkpoint</div>`)[0];
+                popup_233efc2b42eaa1d4f44822c9d1fcba9c.setContent(html_ce369f22049483ced9b5be62baf1eea9);
+            
+        
+
+        marker_ab05d91a878e00f9d6e1d53e41554c23.bindPopup(popup_233efc2b42eaa1d4f44822c9d1fcba9c)
+        ;
+
+        
+    
+    
+            var marker_633250d38b92db402f88104b6345f12a = L.marker(
+                [27.0161111111111, -97.7941666666667],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_88570e0ee11d7ce0ee197e9c90b48846 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f9e0dc072ced01ec853b05a16627850 = $(`<div id="html_9f9e0dc072ced01ec853b05a16627850" style="width: 100.0%; height: 100.0%;">Sarita Checkpoint</div>`)[0];
+                popup_88570e0ee11d7ce0ee197e9c90b48846.setContent(html_9f9e0dc072ced01ec853b05a16627850);
+            
+        
+
+        marker_633250d38b92db402f88104b6345f12a.bindPopup(popup_88570e0ee11d7ce0ee197e9c90b48846)
+        ;
+
+        
+    
+    
+            var marker_0169498a308c2023dd03d72f6f761dc4 = L.marker(
+                [25.9236111111111, -97.3719444444444],
+                {}
+            ).addTo(map_f02ae5856d56814480822a9a6b98242e);
+        
+    
+        var popup_f7256ffca62b4649c131a44117a43cf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_083a6ab3eb573e15d2044393978b1ec8 = $(`<div id="html_083a6ab3eb573e15d2044393978b1ec8" style="width: 100.0%; height: 100.0%;">Brownsville Checkpoint</div>`)[0];
+                popup_f7256ffca62b4649c131a44117a43cf1.setContent(html_083a6ab3eb573e15d2044393978b1ec8);
+            
+        
+
+        marker_0169498a308c2023dd03d72f6f761dc4.bindPopup(popup_f7256ffca62b4649c131a44117a43cf1)
+        ;
+
+        
+    
+</script>
+</html>

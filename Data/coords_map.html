@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f4ce886835f73f2b9f3ee1c625cf699e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f4ce886835f73f2b9f3ee1c625cf699e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f4ce886835f73f2b9f3ee1c625cf699e = L.map(
+                "map_f4ce886835f73f2b9f3ee1c625cf699e",
+                {
+                    center: [27.98694444, -99.5275],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e175b6e691870b249e7770a2dd561b4c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e175b6e691870b249e7770a2dd561b4c.addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+            var marker_64d842c8a5b66519a24a0d25819abfb0 = L.marker(
+                [27.98694444, -99.5275],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_5420787f5e7ef91fe24023a572edb916 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f6a922648bedcc8ed81b43334785c0d = $(`<div id="html_2f6a922648bedcc8ed81b43334785c0d" style="width: 100.0%; height: 100.0%;">Laredo 83 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_5420787f5e7ef91fe24023a572edb916.setContent(html_2f6a922648bedcc8ed81b43334785c0d);
+            
+        
+
+        marker_64d842c8a5b66519a24a0d25819abfb0.bindPopup(popup_5420787f5e7ef91fe24023a572edb916)
+        ;
+
+        
+    
+    
+            marker_64d842c8a5b66519a24a0d25819abfb0.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_789a8a629a41d95ed2c7d545005a3e6a = L.marker(
+                [27.01611111, -97.79416667],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_7bb428b4ad7ba92b2ee783afd3cacc00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3be07981079534a8b7ba6ad593b3766b = $(`<div id="html_3be07981079534a8b7ba6ad593b3766b" style="width: 100.0%; height: 100.0%;">Sarita Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_7bb428b4ad7ba92b2ee783afd3cacc00.setContent(html_3be07981079534a8b7ba6ad593b3766b);
+            
+        
+
+        marker_789a8a629a41d95ed2c7d545005a3e6a.bindPopup(popup_7bb428b4ad7ba92b2ee783afd3cacc00)
+        ;
+
+        
+    
+    
+            marker_789a8a629a41d95ed2c7d545005a3e6a.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96f7f9ea7d8350604c02a562abdf84ba = L.marker(
+                [30.19833333, -103.57944444],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_efc319cfc23694cfad0c6952a49ac695 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c6ce15dfa5ae396c8f45583c5f4495b = $(`<div id="html_8c6ce15dfa5ae396c8f45583c5f4495b" style="width: 100.0%; height: 100.0%;">Alpine Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_efc319cfc23694cfad0c6952a49ac695.setContent(html_8c6ce15dfa5ae396c8f45583c5f4495b);
+            
+        
+
+        marker_96f7f9ea7d8350604c02a562abdf84ba.bindPopup(popup_efc319cfc23694cfad0c6952a49ac695)
+        ;
+
+        
+    
+    
+            marker_96f7f9ea7d8350604c02a562abdf84ba.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4f43a9ebc99f38c3a0ba068eae256bc = L.marker(
+                [30.13777778, -103.23833333],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_a8e32d963d91aed18585a7124e5a4ce3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd3191c1ab07162621088ff4c16d6e11 = $(`<div id="html_fd3191c1ab07162621088ff4c16d6e11" style="width: 100.0%; height: 100.0%;">United States Border Patrol interior checkpoints: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_a8e32d963d91aed18585a7124e5a4ce3.setContent(html_fd3191c1ab07162621088ff4c16d6e11);
+            
+        
+
+        marker_d4f43a9ebc99f38c3a0ba068eae256bc.bindPopup(popup_a8e32d963d91aed18585a7124e5a4ce3)
+        ;
+
+        
+    
+    
+            marker_d4f43a9ebc99f38c3a0ba068eae256bc.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da581a0a1e16ccac6b056483b1809946 = L.marker(
+                [33.3525, -117.52555556],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_6cb400132e42567396a9cc4341745a90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f535403dcfd40bbb165cfea2e95038a9 = $(`<div id="html_f535403dcfd40bbb165cfea2e95038a9" style="width: 100.0%; height: 100.0%;">San Clementes Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_6cb400132e42567396a9cc4341745a90.setContent(html_f535403dcfd40bbb165cfea2e95038a9);
+            
+        
+
+        marker_da581a0a1e16ccac6b056483b1809946.bindPopup(popup_6cb400132e42567396a9cc4341745a90)
+        ;
+
+        
+    
+    
+            marker_da581a0a1e16ccac6b056483b1809946.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04461f14bd1f956a5ae71a302ce48f80 = L.marker(
+                [33.44694444, -117.13472222],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_928988af715d3f49ec2e39605251e3c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16f7f761e3db8af9b5f394ce1b4c2230 = $(`<div id="html_16f7f761e3db8af9b5f394ce1b4c2230" style="width: 100.0%; height: 100.0%;">Temecula Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_928988af715d3f49ec2e39605251e3c0.setContent(html_16f7f761e3db8af9b5f394ce1b4c2230);
+            
+        
+
+        marker_04461f14bd1f956a5ae71a302ce48f80.bindPopup(popup_928988af715d3f49ec2e39605251e3c0)
+        ;
+
+        
+    
+    
+            marker_04461f14bd1f956a5ae71a302ce48f80.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66d836ccdf62e48ad94cf3100a8ed32b = L.marker(
+                [32.79722222, -116.49638889],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_385e253e33036a4b8b285da7c0d0ce74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebda37d498a92be7459fb9049707a740 = $(`<div id="html_ebda37d498a92be7459fb9049707a740" style="width: 100.0%; height: 100.0%;">I-8 West Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_385e253e33036a4b8b285da7c0d0ce74.setContent(html_ebda37d498a92be7459fb9049707a740);
+            
+        
+
+        marker_66d836ccdf62e48ad94cf3100a8ed32b.bindPopup(popup_385e253e33036a4b8b285da7c0d0ce74)
+        ;
+
+        
+    
+    
+            marker_66d836ccdf62e48ad94cf3100a8ed32b.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_968124036f96bbb22ca53de8b8cf0866 = L.marker(
+                [32.66416667, -116.81861111],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_a92850fb1a761860bc4d0a2a9ba57065 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0496b6ae19864c95a455138359b214ee = $(`<div id="html_0496b6ae19864c95a455138359b214ee" style="width: 100.0%; height: 100.0%;">Highway 94 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_a92850fb1a761860bc4d0a2a9ba57065.setContent(html_0496b6ae19864c95a455138359b214ee);
+            
+        
+
+        marker_968124036f96bbb22ca53de8b8cf0866.bindPopup(popup_a92850fb1a761860bc4d0a2a9ba57065)
+        ;
+
+        
+    
+    
+            marker_968124036f96bbb22ca53de8b8cf0866.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da752cb428d4a8b0cc161df1962606be = L.marker(
+                [33.125, -115.85472222],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_6755f8567a3e79985d85d7f63bdd5576 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_251d369732b31c1777512d9212e8898d = $(`<div id="html_251d369732b31c1777512d9212e8898d" style="width: 100.0%; height: 100.0%;">Highway 78/86 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_6755f8567a3e79985d85d7f63bdd5576.setContent(html_251d369732b31c1777512d9212e8898d);
+            
+        
+
+        marker_da752cb428d4a8b0cc161df1962606be.bindPopup(popup_6755f8567a3e79985d85d7f63bdd5576)
+        ;
+
+        
+    
+    
+            marker_da752cb428d4a8b0cc161df1962606be.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a7ed092a2b580208a08aeccd3275efe = L.marker(
+                [33.36027778, -115.64472222],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_f2ad2fc0471533aba2d383dddfc9e851 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33498745948b73362456ce50d5aa1638 = $(`<div id="html_33498745948b73362456ce50d5aa1638" style="width: 100.0%; height: 100.0%;">Highway 111 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_f2ad2fc0471533aba2d383dddfc9e851.setContent(html_33498745948b73362456ce50d5aa1638);
+            
+        
+
+        marker_7a7ed092a2b580208a08aeccd3275efe.bindPopup(popup_f2ad2fc0471533aba2d383dddfc9e851)
+        ;
+
+        
+    
+    
+            marker_7a7ed092a2b580208a08aeccd3275efe.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df9b5181fe39613eb1eed3aa228ce1f3 = L.marker(
+                [32.65972222, -114.36388889],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_8c456c35dd9e5bfd5ebf5df4944e6d93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a135b88a93a039a308c93afb585387cf = $(`<div id="html_a135b88a93a039a308c93afb585387cf" style="width: 100.0%; height: 100.0%;">Yuma Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_8c456c35dd9e5bfd5ebf5df4944e6d93.setContent(html_a135b88a93a039a308c93afb585387cf);
+            
+        
+
+        marker_df9b5181fe39613eb1eed3aa228ce1f3.bindPopup(popup_8c456c35dd9e5bfd5ebf5df4944e6d93)
+        ;
+
+        
+    
+    
+            marker_df9b5181fe39613eb1eed3aa228ce1f3.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa25611af8a9321a5d611c6749803265 = L.marker(
+                [31.66166667, -111.06111111],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_4865a15ad4c94e7f785265b0e66463b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5095c65ce71fe9150ad249a82baf33cb = $(`<div id="html_5095c65ce71fe9150ad249a82baf33cb" style="width: 100.0%; height: 100.0%;">AZ I-19 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_4865a15ad4c94e7f785265b0e66463b9.setContent(html_5095c65ce71fe9150ad249a82baf33cb);
+            
+        
+
+        marker_aa25611af8a9321a5d611c6749803265.bindPopup(popup_4865a15ad4c94e7f785265b0e66463b9)
+        ;
+
+        
+    
+    
+            marker_aa25611af8a9321a5d611c6749803265.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62bb23cf575d78a2ac33efeca0f0f9a4 = L.marker(
+                [31.72611111, -111.07972222],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_1fae56f706a6710065ba58d3f2b8e4cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb0140a05fbc32162d66de07726d3ad5 = $(`<div id="html_eb0140a05fbc32162d66de07726d3ad5" style="width: 100.0%; height: 100.0%;">Arivaca Road Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_1fae56f706a6710065ba58d3f2b8e4cb.setContent(html_eb0140a05fbc32162d66de07726d3ad5);
+            
+        
+
+        marker_62bb23cf575d78a2ac33efeca0f0f9a4.bindPopup(popup_1fae56f706a6710065ba58d3f2b8e4cb)
+        ;
+
+        
+    
+    
+            marker_62bb23cf575d78a2ac33efeca0f0f9a4.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba69e8bc721366b4820bb63361114961 = L.marker(
+                [31.82833333, -111.42472222],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_197e3287678d3e697843e70ef821d2a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_846cdc922e49b9a9849ac3b6286fa253 = $(`<div id="html_846cdc922e49b9a9849ac3b6286fa253" style="width: 100.0%; height: 100.0%;">AZ Hwy 286 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_197e3287678d3e697843e70ef821d2a8.setContent(html_846cdc922e49b9a9849ac3b6286fa253);
+            
+        
+
+        marker_ba69e8bc721366b4820bb63361114961.bindPopup(popup_197e3287678d3e697843e70ef821d2a8)
+        ;
+
+        
+    
+    
+            marker_ba69e8bc721366b4820bb63361114961.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e19a620a66e88dd5444ebf497ee1a90 = L.marker(
+                [32.06472222, -111.375],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_875e815035ccb50586f246d34a4a7b0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_775345fbbe6436be8b131bd5c9043563 = $(`<div id="html_775345fbbe6436be8b131bd5c9043563" style="width: 100.0%; height: 100.0%;">AZ Hwy 86 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_875e815035ccb50586f246d34a4a7b0d.setContent(html_775345fbbe6436be8b131bd5c9043563);
+            
+        
+
+        marker_2e19a620a66e88dd5444ebf497ee1a90.bindPopup(popup_875e815035ccb50586f246d34a4a7b0d)
+        ;
+
+        
+    
+    
+            marker_2e19a620a66e88dd5444ebf497ee1a90.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cdf58756e1461fe7fceb25244adf370 = L.marker(
+                [32.55083333, -111.92916667],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_e444554df7c71207bc68aa933862223e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_027019bcf6f2284a3398ff2fa3a03381 = $(`<div id="html_027019bcf6f2284a3398ff2fa3a03381" style="width: 100.0%; height: 100.0%;">Indian Highway 15 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_e444554df7c71207bc68aa933862223e.setContent(html_027019bcf6f2284a3398ff2fa3a03381);
+            
+        
+
+        marker_2cdf58756e1461fe7fceb25244adf370.bindPopup(popup_e444554df7c71207bc68aa933862223e)
+        ;
+
+        
+    
+    
+            marker_2cdf58756e1461fe7fceb25244adf370.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f092a2724f8a675e9cde81e0df70db2 = L.marker(
+                [31.74944444, -110.34972222],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_e8e58de07ea389bae7fad812b80d32fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dda6ad198a5175eac1892e4e38cb40f6 = $(`<div id="html_dda6ad198a5175eac1892e4e38cb40f6" style="width: 100.0%; height: 100.0%;">AZ Highway 90 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_e8e58de07ea389bae7fad812b80d32fc.setContent(html_dda6ad198a5175eac1892e4e38cb40f6);
+            
+        
+
+        marker_0f092a2724f8a675e9cde81e0df70db2.bindPopup(popup_e8e58de07ea389bae7fad812b80d32fc)
+        ;
+
+        
+    
+    
+            marker_0f092a2724f8a675e9cde81e0df70db2.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afb2e208793bbf83f141eebfaef5fd9a = L.marker(
+                [31.74916667, -110.0975],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_b9b065a189edfa29c2698f1c6c7f9ad5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99d408e70143ccdfb267ac3b1da3c49a = $(`<div id="html_99d408e70143ccdfb267ac3b1da3c49a" style="width: 100.0%; height: 100.0%;">AZ Highway 80 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_b9b065a189edfa29c2698f1c6c7f9ad5.setContent(html_99d408e70143ccdfb267ac3b1da3c49a);
+            
+        
+
+        marker_afb2e208793bbf83f141eebfaef5fd9a.bindPopup(popup_b9b065a189edfa29c2698f1c6c7f9ad5)
+        ;
+
+        
+    
+    
+            marker_afb2e208793bbf83f141eebfaef5fd9a.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4210629b0a4aac491676c7bbb2386e44 = L.marker(
+                [33.259464, 14.2432],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_8b6b4da346d1f90fe96e2874a0cffa8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d4b0f11809a2942242b2b0ea0daae56 = $(`<div id="html_1d4b0f11809a2942242b2b0ea0daae56" style="width: 100.0%; height: 100.0%;">United States Border Patrol interior checkpoints: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_8b6b4da346d1f90fe96e2874a0cffa8f.setContent(html_1d4b0f11809a2942242b2b0ea0daae56);
+            
+        
+
+        marker_4210629b0a4aac491676c7bbb2386e44.bindPopup(popup_8b6b4da346d1f90fe96e2874a0cffa8f)
+        ;
+
+        
+    
+    
+            marker_4210629b0a4aac491676c7bbb2386e44.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16f3db36e3f9bbaaaae51ee4c2c36de9 = L.marker(
+                [32.2025, -112.75916667],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_201b296094fdf2a2881f0b42a3577d09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ae1d102821c94b8739534096ec79fa5 = $(`<div id="html_2ae1d102821c94b8739534096ec79fa5" style="width: 100.0%; height: 100.0%;">Why Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_201b296094fdf2a2881f0b42a3577d09.setContent(html_2ae1d102821c94b8739534096ec79fa5);
+            
+        
+
+        marker_16f3db36e3f9bbaaaae51ee4c2c36de9.bindPopup(popup_201b296094fdf2a2881f0b42a3577d09)
+        ;
+
+        
+    
+    
+            marker_16f3db36e3f9bbaaaae51ee4c2c36de9.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec20e971edc16bcc1511c8ca44ffdd80 = L.marker(
+                [32.71472222, -112.84194444],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_1ed1635dbaedd1029c38252a4d7ebf92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_334f7c827812658b3dc443f6d196bff3 = $(`<div id="html_334f7c827812658b3dc443f6d196bff3" style="width: 100.0%; height: 100.0%;">Gila Bend Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_1ed1635dbaedd1029c38252a4d7ebf92.setContent(html_334f7c827812658b3dc443f6d196bff3);
+            
+        
+
+        marker_ec20e971edc16bcc1511c8ca44ffdd80.bindPopup(popup_1ed1635dbaedd1029c38252a4d7ebf92)
+        ;
+
+        
+    
+    
+            marker_ec20e971edc16bcc1511c8ca44ffdd80.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0af33fc417d4931628979aa9bba0b27e = L.marker(
+                [32.25027778, -107.12111111],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_8955ae60ba121b7f8532e0370a13b52c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b41907e260e18d297da364d16c9930f8 = $(`<div id="html_b41907e260e18d297da364d16c9930f8" style="width: 100.0%; height: 100.0%;">I-10 West Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_8955ae60ba121b7f8532e0370a13b52c.setContent(html_b41907e260e18d297da364d16c9930f8);
+            
+        
+
+        marker_0af33fc417d4931628979aa9bba0b27e.bindPopup(popup_8955ae60ba121b7f8532e0370a13b52c)
+        ;
+
+        
+    
+    
+            marker_0af33fc417d4931628979aa9bba0b27e.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_069781ed1acd119d3e371c75b6a08ff5 = L.marker(
+                [32.59722222, -106.945],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_9bb9a3ed0740c48a8b70625d4cc7109f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dce3ecbf879129bc93df9a1fbe147e13 = $(`<div id="html_dce3ecbf879129bc93df9a1fbe147e13" style="width: 100.0%; height: 100.0%;">I-25 North Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_9bb9a3ed0740c48a8b70625d4cc7109f.setContent(html_dce3ecbf879129bc93df9a1fbe147e13);
+            
+        
+
+        marker_069781ed1acd119d3e371c75b6a08ff5.bindPopup(popup_9bb9a3ed0740c48a8b70625d4cc7109f)
+        ;
+
+        
+    
+    
+            marker_069781ed1acd119d3e371c75b6a08ff5.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0d82293b928ede5041d59e9ab659d67 = L.marker(
+                [32.76527778, -106.18166667],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_908144623373177ca556e3745e3e2f90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a157d63b1ff747fd5a95471a016daab = $(`<div id="html_6a157d63b1ff747fd5a95471a016daab" style="width: 100.0%; height: 100.0%;">US 70 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_908144623373177ca556e3745e3e2f90.setContent(html_6a157d63b1ff747fd5a95471a016daab);
+            
+        
+
+        marker_b0d82293b928ede5041d59e9ab659d67.bindPopup(popup_908144623373177ca556e3745e3e2f90)
+        ;
+
+        
+    
+    
+            marker_b0d82293b928ede5041d59e9ab659d67.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3917aa12f873e807e9fc63de79b0975e = L.marker(
+                [32.52861111, -106.02833333],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_074132fcd3edce6f8b827e7a75a8d581 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46d07bf16a3b7e52a445af4b0919171e = $(`<div id="html_46d07bf16a3b7e52a445af4b0919171e" style="width: 100.0%; height: 100.0%;">Alamogordo Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_074132fcd3edce6f8b827e7a75a8d581.setContent(html_46d07bf16a3b7e52a445af4b0919171e);
+            
+        
+
+        marker_3917aa12f873e807e9fc63de79b0975e.bindPopup(popup_074132fcd3edce6f8b827e7a75a8d581)
+        ;
+
+        
+    
+    
+            marker_3917aa12f873e807e9fc63de79b0975e.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da2dba787bf112fe964a38cd86c2bc7f = L.marker(
+                [31.96444444, -107.67916667],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_30aed8c8145d143c48461ce68628a819 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_289cc71b5f7aa6f0ced055b65d434ea9 = $(`<div id="html_289cc71b5f7aa6f0ced055b65d434ea9" style="width: 100.0%; height: 100.0%;">Columbus Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_30aed8c8145d143c48461ce68628a819.setContent(html_289cc71b5f7aa6f0ced055b65d434ea9);
+            
+        
+
+        marker_da2dba787bf112fe964a38cd86c2bc7f.bindPopup(popup_30aed8c8145d143c48461ce68628a819)
+        ;
+
+        
+    
+    
+            marker_da2dba787bf112fe964a38cd86c2bc7f.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd53f82ae44fbbfcee5277f615bc1a91 = L.marker(
+                [32.60333333, -107.02138889],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_2bdea022b238e56c9ef2abb53c3308b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a580c9fbdfbb3aaf6b7f6ab2d8d30fca = $(`<div id="html_a580c9fbdfbb3aaf6b7f6ab2d8d30fca" style="width: 100.0%; height: 100.0%;">Radium Springs Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_2bdea022b238e56c9ef2abb53c3308b8.setContent(html_a580c9fbdfbb3aaf6b7f6ab2d8d30fca);
+            
+        
+
+        marker_cd53f82ae44fbbfcee5277f615bc1a91.bindPopup(popup_2bdea022b238e56c9ef2abb53c3308b8)
+        ;
+
+        
+    
+    
+            marker_cd53f82ae44fbbfcee5277f615bc1a91.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_585214ef26b0e89ea9370006423e3b7b = L.marker(
+                [31.82638889, -105.91805556],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_14873239a289f27eed2fe0a0c3818342 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed7affb72af8ec0879b73c424b1b07ed = $(`<div id="html_ed7affb72af8ec0879b73c424b1b07ed" style="width: 100.0%; height: 100.0%;">U.S. Route 62 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_14873239a289f27eed2fe0a0c3818342.setContent(html_ed7affb72af8ec0879b73c424b1b07ed);
+            
+        
+
+        marker_585214ef26b0e89ea9370006423e3b7b.bindPopup(popup_14873239a289f27eed2fe0a0c3818342)
+        ;
+
+        
+    
+    
+            marker_585214ef26b0e89ea9370006423e3b7b.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb620e50a6d4487593040fe027258c1d = L.marker(
+                [31.19166667, -105.42972222],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_b0e1cfa615564427fbf1b7c0685f9397 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87c1c0f6f3740bcde9b869c8867c8052 = $(`<div id="html_87c1c0f6f3740bcde9b869c8867c8052" style="width: 100.0%; height: 100.0%;">Sierra Blanca Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_b0e1cfa615564427fbf1b7c0685f9397.setContent(html_87c1c0f6f3740bcde9b869c8867c8052);
+            
+        
+
+        marker_fb620e50a6d4487593040fe027258c1d.bindPopup(popup_b0e1cfa615564427fbf1b7c0685f9397)
+        ;
+
+        
+    
+    
+            marker_fb620e50a6d4487593040fe027258c1d.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e002595853928f93d5a8bd69024f6161 = L.marker(
+                [28.79722222, -100.36805556],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_c334def233eaa43dccb8b7ad89fe5f6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4be7bd55ea4c239458c8c4b11ace33f4 = $(`<div id="html_4be7bd55ea4c239458c8c4b11ace33f4" style="width: 100.0%; height: 100.0%;">Eagle Pass Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_c334def233eaa43dccb8b7ad89fe5f6a.setContent(html_4be7bd55ea4c239458c8c4b11ace33f4);
+            
+        
+
+        marker_e002595853928f93d5a8bd69024f6161.bindPopup(popup_c334def233eaa43dccb8b7ad89fe5f6a)
+        ;
+
+        
+    
+    
+            marker_e002595853928f93d5a8bd69024f6161.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_487fca37fa6b3e45ae192e852eb23dc5 = L.marker(
+                [28.62583333, -100.05916667],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_18542dbdaf34c11723448b1d275e1ef1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4515a23078738536ba9b33c930483ec = $(`<div id="html_e4515a23078738536ba9b33c930483ec" style="width: 100.0%; height: 100.0%;">Carrizo Springs Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_18542dbdaf34c11723448b1d275e1ef1.setContent(html_e4515a23078738536ba9b33c930483ec);
+            
+        
+
+        marker_487fca37fa6b3e45ae192e852eb23dc5.bindPopup(popup_18542dbdaf34c11723448b1d275e1ef1)
+        ;
+
+        
+    
+    
+            marker_487fca37fa6b3e45ae192e852eb23dc5.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18d8b16483800cf959b3bd44e95ee74e = L.marker(
+                [29.21611111, -99.9425],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_c4cb34287f6024f92912b7b34025322b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_936e026b58442c47d03adbf9651f73d7 = $(`<div id="html_936e026b58442c47d03adbf9651f73d7" style="width: 100.0%; height: 100.0%;">Uvalde Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_c4cb34287f6024f92912b7b34025322b.setContent(html_936e026b58442c47d03adbf9651f73d7);
+            
+        
+
+        marker_18d8b16483800cf959b3bd44e95ee74e.bindPopup(popup_c4cb34287f6024f92912b7b34025322b)
+        ;
+
+        
+    
+    
+            marker_18d8b16483800cf959b3bd44e95ee74e.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83310adece7d5e12e9efb205c374020a = L.marker(
+                [29.71333333, -100.82944444],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_ec8b2808c0b027da071fa0b60a1866f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22ac19bb2494e9e803ea8f4a7675df9b = $(`<div id="html_22ac19bb2494e9e803ea8f4a7675df9b" style="width: 100.0%; height: 100.0%;">Del Rio Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_ec8b2808c0b027da071fa0b60a1866f2.setContent(html_22ac19bb2494e9e803ea8f4a7675df9b);
+            
+        
+
+        marker_83310adece7d5e12e9efb205c374020a.bindPopup(popup_ec8b2808c0b027da071fa0b60a1866f2)
+        ;
+
+        
+    
+    
+            marker_83310adece7d5e12e9efb205c374020a.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7896cc5dd2936a8fcc60909fa7b0e21 = L.marker(
+                [27.905, -99.39388889],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_d08a8bbeb88ddbbd1b2c1788b04fca4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b145dfb822d6ab3579e8558f7d254949 = $(`<div id="html_b145dfb822d6ab3579e8558f7d254949" style="width: 100.0%; height: 100.0%;">Laredo Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_d08a8bbeb88ddbbd1b2c1788b04fca4d.setContent(html_b145dfb822d6ab3579e8558f7d254949);
+            
+        
+
+        marker_a7896cc5dd2936a8fcc60909fa7b0e21.bindPopup(popup_d08a8bbeb88ddbbd1b2c1788b04fca4d)
+        ;
+
+        
+    
+    
+            marker_a7896cc5dd2936a8fcc60909fa7b0e21.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7ed287c93e4c7e5b356cfcbfa7439c9 = L.marker(
+                [27.77416667, -98.84555556],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_bed5204e7932dae888b8fb9d63a32850 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8613157bfe24dd49228edf966af0a77 = $(`<div id="html_a8613157bfe24dd49228edf966af0a77" style="width: 100.0%; height: 100.0%;">Freer Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_bed5204e7932dae888b8fb9d63a32850.setContent(html_a8613157bfe24dd49228edf966af0a77);
+            
+        
+
+        marker_f7ed287c93e4c7e5b356cfcbfa7439c9.bindPopup(popup_bed5204e7932dae888b8fb9d63a32850)
+        ;
+
+        
+    
+    
+            marker_f7ed287c93e4c7e5b356cfcbfa7439c9.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66456665835a89f052f7fb5fd62c22b9 = L.marker(
+                [27.44333333, -98.8875],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_b63e4436e8bb97c226b3e60f60947024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6547f6607a6734dc29e60ba89c315ad3 = $(`<div id="html_6547f6607a6734dc29e60ba89c315ad3" style="width: 100.0%; height: 100.0%;">Oilton Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_b63e4436e8bb97c226b3e60f60947024.setContent(html_6547f6607a6734dc29e60ba89c315ad3);
+            
+        
+
+        marker_66456665835a89f052f7fb5fd62c22b9.bindPopup(popup_b63e4436e8bb97c226b3e60f60947024)
+        ;
+
+        
+    
+    
+            marker_66456665835a89f052f7fb5fd62c22b9.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cac424e34399ce367ab29c296dbe15f4 = L.marker(
+                [27.025, -98.13833333],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_a0efa4daeac6b076534b21b393ec4d57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81f90a04d705c5bc2a4373d777a9a400 = $(`<div id="html_81f90a04d705c5bc2a4373d777a9a400" style="width: 100.0%; height: 100.0%;">Falfurrias Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_a0efa4daeac6b076534b21b393ec4d57.setContent(html_81f90a04d705c5bc2a4373d777a9a400);
+            
+        
+
+        marker_cac424e34399ce367ab29c296dbe15f4.bindPopup(popup_a0efa4daeac6b076534b21b393ec4d57)
+        ;
+
+        
+    
+    
+            marker_cac424e34399ce367ab29c296dbe15f4.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67185896741dedc49e35b1b709bd6f76 = L.marker(
+                [27.28305556, -98.69333333],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_1e7432a9e210cad203395cad3d77e1da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3596e73fce4de12a5146f9a3588c2c32 = $(`<div id="html_3596e73fce4de12a5146f9a3588c2c32" style="width: 100.0%; height: 100.0%;">Hebbronville Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_1e7432a9e210cad203395cad3d77e1da.setContent(html_3596e73fce4de12a5146f9a3588c2c32);
+            
+        
+
+        marker_67185896741dedc49e35b1b709bd6f76.bindPopup(popup_1e7432a9e210cad203395cad3d77e1da)
+        ;
+
+        
+    
+    
+            marker_67185896741dedc49e35b1b709bd6f76.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4200080554173c3d97266493e60fb05a = L.marker(
+                [27.29666667, -98.66305556],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_846558360145c2812c782c08eaa4afd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d07e79b89a54e39fa1956ff1bb6ae93 = $(`<div id="html_1d07e79b89a54e39fa1956ff1bb6ae93" style="width: 100.0%; height: 100.0%;">Hebbronville2 Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_846558360145c2812c782c08eaa4afd8.setContent(html_1d07e79b89a54e39fa1956ff1bb6ae93);
+            
+        
+
+        marker_4200080554173c3d97266493e60fb05a.bindPopup(popup_846558360145c2812c782c08eaa4afd8)
+        ;
+
+        
+    
+    
+            marker_4200080554173c3d97266493e60fb05a.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e701a53d9c137de7aac4286484761cd = L.marker(
+                [25.92361111, -97.37194444],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_e6ed1fda28f0834ef9feb067aa71b71a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2103405d05f7690230a72140ae8be45e = $(`<div id="html_2103405d05f7690230a72140ae8be45e" style="width: 100.0%; height: 100.0%;">Brownsville Checkpoint: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_e6ed1fda28f0834ef9feb067aa71b71a.setContent(html_2103405d05f7690230a72140ae8be45e);
+            
+        
+
+        marker_8e701a53d9c137de7aac4286484761cd.bindPopup(popup_e6ed1fda28f0834ef9feb067aa71b71a)
+        ;
+
+        
+    
+    
+            marker_8e701a53d9c137de7aac4286484761cd.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73155fae11398c28333a15e0b7e2d8ab = L.marker(
+                [30.25166667, -104.04944444],
+                {}
+            ).addTo(map_f4ce886835f73f2b9f3ee1c625cf699e);
+        
+    
+        var popup_d6eadc764e1d2776f7aadfda8b0baa00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec7097c7a6ef17d43fc8f7bbcd8224f4 = $(`<div id="html_ec7097c7a6ef17d43fc8f7bbcd8224f4" style="width: 100.0%; height: 100.0%;">United States Border Patrol interior checkpoints: United States Border Patrol interior checkpoints</div>`)[0];
+                popup_d6eadc764e1d2776f7aadfda8b0baa00.setContent(html_ec7097c7a6ef17d43fc8f7bbcd8224f4);
+            
+        
+
+        marker_73155fae11398c28333a15e0b7e2d8ab.bindPopup(popup_d6eadc764e1d2776f7aadfda8b0baa00)
+        ;
+
+        
+    
+    
+            marker_73155fae11398c28333a15e0b7e2d8ab.bindTooltip(
+                `<div>
+                     Click for more info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
