@@ -116,7 +116,7 @@ The SARIMA (Seasonal Autoregressive Integrated Moving Average) model is a time s
 
 The second model I took a look at was the Auto ARIMA model. 
 
-![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/4fb33aa0-b7fc-4abf-a7af-61ecef466141)
+![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/d1104973-676f-4f36-ae4b-ce418aa2dc3e)
 Fig 11. Auto ARIMA Model that forecasts a projection of predicted apprehensions.
 
 * Mean Absolute Error (MAE): 493348.7
