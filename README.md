@@ -1,14 +1,15 @@
 # Pyth-on-the-Border: A Data View of US Immigration Metrics
 
-# US_Southern_Border_Metrics
-A interactive Geopandas Map with a list of Checkpoints and Sector locations on an interactive Folium map that can be localized or drag-and-dropped into a web browser along with data analytics of the Immigration metrics throughout the US Southern Border.
+An interactive Geopandas Map with a list of Checkpoints and Sector locations on an interactive Folium map that can be localized or drag-and-dropped into a web browser along with data analytics of the Immigration metrics throughout the US Southern Border.
 
 # SPC Brandon Cooke, USARMY
 
 ![logo](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/fd3cd47c-0dcc-4a0e-b228-9afabc9d0b88)
 
 My data was derived from the US Customs and Broder Protection Agency.
-About CBP
+
+About CBP:
+
 With more than 60,000 employees, U.S. Customs and Border Protection, CBP, is one of the world's largest law enforcement organizations and is charged with keeping terrorists and their weapons out of the U.S. while facilitating lawful international travel and trade.
 
 As the United States’ first unified border entity, CBP takes a comprehensive approach to border management and control, combining customs, immigration, border security, and agricultural protection into one coordinated and supportive activity.
