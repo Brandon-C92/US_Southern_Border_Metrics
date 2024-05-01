@@ -49,7 +49,7 @@ Fig 3. The rate of apprehensions (in) the United States in the dataset, over tim
 
 Looking at this this plot we can see that based on the data provided that the month of July seems to be the peak time that we experience an influx of immigrants or apprehensions to the United States. After seeing this I wanted to see where (what border) people are coming to America from, in essence where the encouters are taking place.
 
-# Top Border Areas Apprehensions Are Happening
+# Top Border Area Apprehensions Are Happening Where?
 
 So after we visualized the rate of immigration and the steady uptick over the course of years, I wnated to see where or what border these people are being met at. I took a look at certain columns and totaled them out to give me a graph that would explain this:
 
