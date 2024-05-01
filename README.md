@@ -99,7 +99,7 @@ Fig 9. Overview of Code that compiles Mann-Whitney Test
 
 Providing both data tests, previous data analysis and plots, we can indeed confirm the Alternate Hypothesis (H1) and reject the Null Hypothesis. Alternative Hypothesis (H1): There is a significant difference in the mean apprehension numbers between individuals from Mexico and those from other countries proves to be true.
 
-# Predictive Forcasting
+# Predictive Forecasting
 
 Upon solving the hypothesis question, I tried to focus on a new topic of python that i've never dabbled in before. After doing some research and back and forth model checking, I settled on a few different models to express predictive trend analysis for this dataset. 
 
