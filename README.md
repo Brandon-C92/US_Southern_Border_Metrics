@@ -141,7 +141,7 @@ Fig 12. Linear Regression Model making a prediction on increased apprehensions.
 * Mean Squared Error (MSE): 744536226995.5281
 * Root Mean Squared Error (RMSE): 862865.1267698377
 
-Here is a linear regression model. Linear regression is a statistical method used to model the relationship between a dependent variable (in this case, 'Border apprehensions (People)') and one or more independent variables (in this case, the years). In this specific implementation, the linear regression model is being used to predict the number of border apprehensions based on the year. The independent variable is the year, extracted from the datetime index, and the dependent variable is the number of border apprehensions. The linear regression model assumes a linear relationship between the independent and dependent variables. It estimates the coefficients of the linear equation that best fits the observed data points, allowing us to predict the dependent variable's value based on the independent variable(s). Overall, the model appears to be a reasonable fit for the data. However, it's important to keep in mind that the adequacy of this model depends on the specific context and the goals of the analysis taking place. Additionally, it would be a good practice to try to validate the model on independent/ different datasets and perform additional checks to ensure its robustness. Essentially using other datasest in teh same manner to generate the "same" results when ran. 
+Here is a linear regression model. Linear regression is a statistical method used to model the relationship between a dependent variable (in this case, 'Border apprehensions (People)') and one or more independent variables (in this case, the years). In this specific implementation, the linear regression model is being used to predict the number of border apprehensions based on the year. The independent variable is the year, extracted from the datetime index, and the dependent variable is the number of border apprehensions. The linear regression model assumes a linear relationship between the independent and dependent variables. It estimates the coefficients of the linear equation that best fits the observed data points, allowing us to predict the dependent variable's value based on the independent variable(s). Overall, the model appears to be a reasonable fit for the data. However, it's important to keep in mind that the adequacy of this model depends on the specific context and the goals of the analysis taking place. Additionally, it would be a good practice to try to validate the model on independent/ different datasets and perform additional checks to ensure its robustness. Essentially using other datasest in the same manner to generate the "same" results when ran. 
 
 # Roundup and Findings
 
@@ -160,12 +160,37 @@ I think I can summarize my findings in a few points,
   * Deferred Action for Childhood Arrivals (DACA)
   * Trump Administration Policies
   * COVID-19 Pandemic
-These are just a few examples of key moments, legislation, and factors that have influenced fluctuations in U.S. immigration levels over time. Immigration trends are influenced by a complex interplay of economic, social, political, and global factors, and they continue to evolve in response to changing circumstances and policies.
+These are just a few examples of key moments, legislation, and factors that have influenced fluctuations in U.S. immigration levels over time. Immigration trends are influenced by a complex interplay of economic, social, political, and global factors, and they continue to evolve in response to changing circumstances and policies. The statistical averages from each model (the MAE, MSE, and RMSE) are not great, but it shows promise in narrowing down values and variables that could help them better narrow down the accuracy of the predictions.
 
-Trying to predict a future rate of immigration would be complex in itself to show an "accurate" representation of the data unless we can sumize and actually have hard data points on these events or policies. I would also require more time to compile that data and make it readable by data analysis.
+Trying to predict a future rate of immigration would be complex in itself to show an "accurate" representation of the data unless we can accurately summarize and actually have hard data points on these events or policies. I would also require more time to compile that data and make it readable by data analysis.
 
 # Additional Capstone MVP
 
-For all the graphs and data analysis that was done to the data, I wanted to be able to show an actual representation of where these apprehensions took place. My MVP would be a Geographic Folium Map that shows the 
+For all the graphs and data analysis that was done to the data, I wanted to be able to show an actual representation of where these apprehensions took place. I created a visual, interactive Folium map with a Geofence plot of the US Southern Border that you can view on a webpage. It's similar to using Google Maps or other online mapping services. However, with Folium, you can create your own customized maps with different features and layers. I then took in an additional refined dataframe containing encounters (from 2021 - 2024) and published it with folium to show Station Chekpoints and Sector Offices all around the Southern Border.
 
+![CPT2404291331-1074x835](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/74766509-3a3e-4501-8470-1e8b401e5144)
+Fig 13. Gif containing Folium mapping of CBP station checkpoints and sector offices.
 
+* This allows someone to scroll around, view checkpoints around the Southern Border, and the top location sectors with total encounters logged for 2021 - March 2024.
+
+# Final Considerations
+
+Final considerations for my capstone project could possibly include:
+
+* Data Integrity and Sourcing: Emphasize the importance of reliable data sources and thorough data cleaning processes to ensure the accuracy and validity of analysis and findings.
+
+* Interpretation of Results: Highlight the significance of findings and how they contribute to our understanding of U.S. immigration trends. Discuss any unexpected results or limitations in your analysis.
+  
+* Practical Implications: Discuss the potential real-world implications of the findings, such as informing policy decisions or guiding future research in the field of immigration studies.
+  
+* Methodological Insights: Reflect on the methodologies and techniques employed throughout the project, including data visualization, statistical analysis, and machine learning models. Discuss their strengths, limitations, and potential areas for improvement.
+  
+* Future Directions: Identify potential avenues for further research or analysis based on the insights gained from the project. This could include exploring additional variables, refining modeling techniques, or investigating specific aspects of immigration dynamics.
+  
+* Communication and Visualization: Highlight the effectiveness of my communication strategies, including the use of visualizations, maps, and clear narrative storytelling to convey complex information in a compelling and accessible manner.
+
+* Ethical Considerations: Acknowledge any ethical considerations related to the collection, analysis, and interpretation of immigration data, such as privacy concerns or biases inherent in the data sources.
+  
+* Personal Growth: Reflect on my learning journey throughout the project, including any challenges you encountered, lessons learned, and skills acquired.
+
+I believe with proper, ethical data collection, I would be able to work on the predictive models to refine and hone in the accuracy of the findings to enable proper views in to a forecast of future apprehensions and immigration to the United States.
