@@ -97,7 +97,7 @@ Since the independent t-test already yielded a significant result, there may not
 ![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/5b610c82-2bb1-4740-b43b-5016358fedde)
 Fig 9. Overview of Code that compiles Mann-Whitney Test
 
-Providing both data tests, previous data anylysis and plot, we can indeed confirm the Alternate Hypothesis (H1) and reject the Null Hypothesis. Alternative Hypothesis (H1): There is a significant difference in the mean apprehension numbers between individuals from Mexico and those from other countries proves to be true.
+Providing both data tests, previous data analysis and plot, we can indeed confirm the Alternate Hypothesis (H1) and reject the Null Hypothesis. Alternative Hypothesis (H1): There is a significant difference in the mean apprehension numbers between individuals from Mexico and those from other countries proves to be true.
 
 # Predictive Forcasting
 
