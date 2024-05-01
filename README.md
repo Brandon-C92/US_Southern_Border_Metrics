@@ -25,7 +25,7 @@ Tracking down data to answer my questions was pretty simple, but also hard at th
 # Final Capstone Goals
 - Explore and find out what the most common types of apprehension metrics we see at which border.
 - Plot out and visualize the data.
-- Find out the origin countries of immigration (what countries they are from).
+- Find out the origin countries of apprehended (what countries they are coming from).
 - Display my findings with a Folium map with US southern border, checkpoints and sectors.
 - Showcase my general knowledge of Python.
 
@@ -153,7 +153,7 @@ Overall, this Linear Regression Model appears to be a reasonable fit for the dat
 
 # Roundup and Findings
 
-I think I can summarize my findings in a few points,
+I think I can summarize my findings in a few points, being that:
 
 - There is a significant increase in apprehensions taken at the Southwest Border to the United States.
 - There is an overwhelming amount of more people coming from Mexico vs other countries based on the data.
@@ -173,7 +173,7 @@ These are just a few examples of key moments, legislation, and factors that have
 
 Trying to predict a future rate of immigration would be complex in itself to show an "accurate" representation of the data unless we can accurately summarize and actually have hard data points on these events or policies. I would also require more time to compile that data and make it readable by data analysis.
 
-# Additional Capstone MVP
+# Capstone MVP
 
 For all the graphs and data analysis that was done to the data, I wanted to be able to show an actual representation of where these apprehensions took place. I created a visual, interactive Folium map with a Geofence plot of the US Southern Border that you can view on a webpage. It's similar to using Google Maps or other online mapping services. However, with Folium, you can create your own customized maps with different features and layers. I then took in an additional refined dataframe containing encounters (from 2021 - 2024) and published it with folium to show Sector Chekpoints and Sector Offices all around the Southern Border.
 
@@ -202,4 +202,4 @@ Final considerations for my capstone project could possibly include:
   
 * Personal Growth: Reflect on my learning journey throughout the project, including any challenges you encountered, lessons learned, and skills acquired.
 
-I believe with proper, ethical data collection, I would be able to work on the predictive models to refine and hone in the accuracy of the findings to enable proper views in to a forecast of future apprehensions and immigration to the United States. This along with formatting those previously discussed policy/world happenings into data for analysis would lend into possible profitable predictive modeling.
+I believe with proper, ethical data collection, I would be able to work on the predictive models to refine and hone in the accuracy of the models findings to enable proper views in to a forecast of future apprehensions and immigration to the United States. This, along with formatting those previously discussed policy/ world happenings into data for analysis would lend into possible profitable predictive modeling.
