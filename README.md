@@ -101,7 +101,7 @@ Providing both data tests, previous data analysis and plots, we can indeed confi
 
 # Predictive Forcasting
 
-Upon solving the hypothesis question, I tried to focus on a new topic of pyhton that ive never dabbled in before. After doing some research and back and forth model checking, I settled on a few different models to express predictive trend analysis for this dataset. 
+Upon solving the hypothesis question, I tried to focus on a new topic of python that i've never dabbled in before. After doing some research and back and forth model checking, I settled on a few different models to express predictive trend analysis for this dataset. 
 
 The first model was the SARIMA model:
 
