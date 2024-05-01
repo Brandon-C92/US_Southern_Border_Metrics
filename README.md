@@ -23,11 +23,11 @@ United States immigration, apprehensions, and  polcies are a big talk of the tow
 Tracking down data to answer my questions was pretty simple, but also hard aty the same time. The Geospatial approach I took to explain my findings took me all over the internet to find the best approach to display my data in a comparable manner.
 
 # Final Capstone Goals
-- Explore and find out what the most common types of immigration metrics we see at which border.
-- Plot out apprehension data to visualize the data.
-- Find out the origin countries of immigration (what countires they are from).
+- Explore and find out what the most common types of apprehension metrics we see at which border.
+- Plot out and visualize the data.
+- Find out the origin countries of immigration (what countries they are from).
 - Display my findings with a Folium map with US southern border, checkpoints and sectors.
-- Showcase my general knowlege of Python.
+- Showcase my general knowledge of Python.
 
 # Data Visualization
 I first wanted to see based on the preliminary data I obtained, what the rate of apprehesnions were based on the year. First though, I had to clean the data and pre-process it to make it more readable:
