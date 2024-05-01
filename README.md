@@ -24,7 +24,7 @@ Tracking down data to answer my questions was pretty simple, but also hard at th
 
 # Final Capstone Goals
 - Explore and find out what the most common types of apprehension metrics we see at which border.
-- Plot out and visualize the data.
+- Analyse, plot and visualize the data.
 - Find out the origin countries of apprehended (what countries they are coming from).
 - Display my findings with a Folium map with US southern border, checkpoints and sectors.
 - Showcase my general knowledge of Python.
