@@ -65,7 +65,7 @@ Since plotting this result, we can see overwhelmingly that most apprehensions ar
 
 Country of Origin Comparison Hypothesis:
 
-Based on the previous graphs and data analysis, I have formed a general hypothesis on this dataset and want to explore it further. Noting how collection of data was only starting to be collected in 2000 to differentiate people from Mexico and Other Countries, I will section off that data to perfrom the tests in a true manner:
+Based on the previous graphs and data analysis, I have formed a general hypothesis on this dataset and want to explore it further. Noting how collection of data was only starting to be collected in 2000 to differentiate people from Mexico and Other Countries, I will section off that data to perform the tests in a true manner:
 
     * Null Hypothesis (H0): There is no significant difference in the 
     mean apprehension numbers between individuals from Mexico and those from other countries.
