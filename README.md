@@ -38,7 +38,7 @@ After that I am able to do a basic plot to visualize the data:
 ![1st scatterplot](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/d67727de-9bb3-4446-8ccc-6f9b835cbdc7)
 Fig 1. General number of unique columns in the dataset, over time.
 
-From that I can see the rate of immigration, and single that out to understand it better with a temporal line graph to showcase the rate of immigration thoughout the years:
+From that I can see the rate of apprehensions, and single that out to understand it better with a temporal line graph to showcase the rate of apprehensions captured thoughout the years:
 ![1st Vewing of Data](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/39e668bd-ce44-4b2a-8c55-3d8e6928945c)
 Fig 2. The rate of apprehensions collected (to) the United States in the dataset, over time.
 
