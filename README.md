@@ -7,7 +7,7 @@ A interactive Geopandas Map with a list of Checkpoints and Sector locations on a
 
 ![logo](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/fd3cd47c-0dcc-4a0e-b228-9afabc9d0b88)
 
-Data was derrived from the US Customs and Broder Protection Agency.
+My data was derived from the US Customs and Broder Protection Agency.
 About CBP
 With more than 60,000 employees, U.S. Customs and Border Protection, CBP, is one of the world's largest law enforcement organizations and is charged with keeping terrorists and their weapons out of the U.S. while facilitating lawful international travel and trade.
 
@@ -15,7 +15,7 @@ As the United States’ first unified border entity, CBP takes a comprehensive a
 
 # Data Description
 
-US Immigration polcies are a big talk of the town recently, and so I was wondering what data or metrics can be used to explain the story of immigration in the US and where the most immigration and apprehension influxes take place in the United States. The dataset came in a big CSV file that had data ranging all the way back to 1925!
+United States immigration, apprehensions, and  polcies are a big talk of the town recently, and so I was wondering what data or metrics can be used to explain the story of immigration in the United States and where the most immigration and apprehension influxes take place in the United States. The dataset came in a big CSV file that had data ranging all the way back to 1925!
 
 <img width="1239" alt="DF before cleaning" src="https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/fa22c5bf-f833-4828-8533-a372d9f57cf1">
 
