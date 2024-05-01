@@ -45,7 +45,7 @@ Fig 2. The rate of apprehensions collected (to) the United States in the dataset
 To explore the seasonal componet further, I decided to take a look at when in the year the uptick in apprehensions happen, and plotted that. I made the months based on ammount of data and picked out the changes from that since there was so much data to use.
 
 ![Seasonal Analysis of Border Apprehensions(Month)](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/e203aae0-300b-448c-b47a-44770a21265c)
-Fig 3. The rate of apprehensions (to) the United States in the dataset, over time (by month).
+Fig 3. The rate of apprehensions (in) the United States in the dataset, over time (by month).
 
 Looking at this this plot we can see that based on the data provided that the month of July seems to be the peak time that we experience an influx of immigrants or apprehensions to the United States. After seeing this I wanted to see where (what border) people are coming to America from, in essence where the encouters are taking place.
 
@@ -55,6 +55,9 @@ So after we visualized the rate of immigration and the steady uptick over the co
 
 ![Distribution of Apprehensions by Location of Apprehension png(BAR GRAPH)](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/dd7ea021-a6ae-4eed-aee5-64de07c351c7)
 Fig 4. Distribution of different border areas and their encounters.
+
+![Apprehesnions by Countries](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/098c131d-56f7-4dcb-943b-f46bf3791d23)
+Fig 5. Trend of Border Apprehensions Across Different Locations Over Time (data begins 2001)
 
 Since plotting this result, we can see overwhelmingly that most apprehensions are seen at the Southwest Border. Once relizing this, we can start to focus on a hypothesis of where or what countries people are coming to the Southwest Border from.
 
@@ -75,7 +78,7 @@ To perform a hypothesis test comparing the mean apprehension numbers between ind
 ![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/11eb0d1b-050e-4703-a858-0f7bd37dff4f)
 
 ![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/a40c66c9-e5a9-450f-9d18-98418f0f75a4)
-Fig 5 and 6. Display of apprehensions and when they started recording based on countries (charts data not collected for 22- 23).
+Fig 6 and 7. Display of apprehensions and when they started recording based on countries (charts data not collected for 22- 23).
 
 
 
@@ -85,14 +88,14 @@ Since we have some solid data based on these findings, I will be able to preform
 
 Here we will compile an Independent T-Test:
 <img width="1405" alt="Screenshot 2024-04-30 at 12 53 19 PM" src="https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/cc7ef264-c4b3-4345-9c8a-9a473fde0860">
-Fig 7. Overview of Code that compiles Independant T-Test
+Fig 8. Overview of Code that compiles Independant T-Test
 
 With a p-value of 0.0099, which is less than the significance level (typically 0.05), we reject the null hypothesis. Therefore, there is sufficient evidence to conclude that there is a significant difference in the mean apprehension numbers between individuals from Mexico and those from other countries.
 
 Since the independent t-test already yielded a significant result, there may not be a strict necessity to perform the Mann-Whitney U test. However, conducting both tests provides a comprehensive analysis and ensures the reliability of the conclusion.
 
 ![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/5b610c82-2bb1-4740-b43b-5016358fedde)
-Fig 8. Overview of Code that compiles Mann-Whitney Test
+Fig 9. Overview of Code that compiles Mann-Whitney Test
 
 Providing both data tests, previous data anylysis and plot, we can indeed confirm the Alternate Hypothesis (H1) and reject the Null Hypothesis. Alternative Hypothesis (H1): There is a significant difference in the mean apprehension numbers between individuals from Mexico and those from other countries proves to be true.
 
@@ -103,7 +106,7 @@ Upon solving the hypothesis question, I tried to focus on a new topic of pyhton 
 The first model was the SARIMA model:
 
 ![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/07a88bfe-7902-4c60-9bd5-79fa3f7c86de)
-Fig 9. SARIMA Model that predicts based on training data, an uptick in apprehensions.
+Fig 10. SARIMA Model that predicts based on training data, an uptick in apprehensions.
 
 * Mean Absolute Error (MAE): 1004009.8853928152
 * Mean Squared Error (MSE): 1386518719472.697
@@ -114,7 +117,7 @@ The SARIMA (Seasonal Autoregressive Integrated Moving Average) model is a time s
 The second model I took a look at was the Auto ARIMA model. 
 
 ![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/4fb33aa0-b7fc-4abf-a7af-61ecef466141)
-Fig 10. Auto ARIMA Model that forecasts a projection of predicted apprehensions.
+Fig 11. Auto ARIMA Model that forecasts a projection of predicted apprehensions.
 
 * Mean Absolute Error (MAE): 493348.7
 * Mean Squared Error (MSE): 335351761941.1
@@ -125,7 +128,7 @@ The Auto ARIMA, or automated AutoRegressive Integrated Moving Average, is a stat
 The next model I wanted to look at was the ETS model:
 
 ![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/5dd05e14-0b40-4201-9a6e-f1da80b084dc)
-Fig 11. ETS Forecasting Model on potential future border apprehensions.
+Fig 12. ETS Forecasting Model on potential future border apprehensions.
 
 * Mean Forecast: 2173135.5970056877
 * Median Forecast: 2187500.9666306
@@ -136,7 +139,7 @@ The ETS (Error, Trend, Seasonality) model serves the purpose of forecasting futu
 The last model I wanted to look at was a Linear Regression Model:
 
 ![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/8462e6e3-c11a-4d73-954f-31d69c487cc2)
-Fig 12. Linear Regression Model making a prediction on increased apprehensions.
+Fig 13. Linear Regression Model making a prediction on increased apprehensions.
 
 * Mean Absolute Error (MAE): 765742.4266966846
 * Mean Squared Error (MSE): 744536226995.5281
@@ -170,7 +173,7 @@ Trying to predict a future rate of immigration would be complex in itself to sho
 For all the graphs and data analysis that was done to the data, I wanted to be able to show an actual representation of where these apprehensions took place. I created a visual, interactive Folium map with a Geofence plot of the US Southern Border that you can view on a webpage. It's similar to using Google Maps or other online mapping services. However, with Folium, you can create your own customized maps with different features and layers. I then took in an additional refined dataframe containing encounters (from 2021 - 2024) and published it with folium to show Sector Chekpoints and Sector Offices all around the Southern Border.
 
 ![CPT2404291331-1074x835](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/74766509-3a3e-4501-8470-1e8b401e5144)
-Fig 13. Gif containing Folium mapping of CBP station checkpoints and sector offices.
+Fig 14. Gif containing Folium mapping of CBP station checkpoints and sector offices.
 
 * This allows someone to scroll around, view checkpoints around the Southern Border, and the top location sectors with total encounters logged for 2021 - March 2024.
 
@@ -194,4 +197,4 @@ Final considerations for my capstone project could possibly include:
   
 * Personal Growth: Reflect on my learning journey throughout the project, including any challenges you encountered, lessons learned, and skills acquired.
 
-I believe with proper, ethical data collection, I would be able to work on the predictive models to refine and hone in the accuracy of the findings to enable proper views in to a forecast of future apprehensions and immigration to the United States.
+I believe with proper, ethical data collection, I would be able to work on the predictive models to refine and hone in the accuracy of the findings to enable proper views in to a forecast of future apprehensions and immigration to the United States. This along with formatting those previously discussed policy/world happenings into data for analysis would lend into possible profitable predictive modeling.
