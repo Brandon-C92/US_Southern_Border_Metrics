@@ -156,7 +156,7 @@ Overall, this Linear Regression Model appears to be a reasonable fit for the dat
 I think I can summarize my findings in a few points,
 
 - There is a significant increase in apprehensions taken at the Southwest Border to the United States.
-- There is a overwhelming ammount of more people coming from Mexico vs other countires based on the data.
+- There is an overwhelming amount of more people coming from Mexico vs other countries based on the data.
 - There is a positive correlation between the years and the number of border apprehensions. This indicates that, on average, as the years increase, the number of border apprehensions also tends to increase. However, the correlation is not perfect, suggesting that other factors besides time may also influence border apprehensions.
 - Prediction of increased immigration is in one sense easy to "predict' but also hard to get "accurate".
   Several key moments, legislation, and factors have influenced fluctuations in U.S. immigration levels over the years:
@@ -168,6 +168,7 @@ I think I can summarize my findings in a few points,
   * Deferred Action for Childhood Arrivals (DACA)
   * Trump Administration Policies
   * COVID-19 Pandemic
+    
 These are just a few examples of key moments, legislation, and factors that have influenced fluctuations in U.S. immigration levels over time. Immigration trends are influenced by a complex interplay of economic, social, political, and global factors, and they continue to evolve in response to changing circumstances and policies. The statistical averages from each model (the MAE, MSE, and RMSE) are not great, but it shows promise in narrowing down values and variables that could help them better narrow down the accuracy of the predictions.
 
 Trying to predict a future rate of immigration would be complex in itself to show an "accurate" representation of the data unless we can accurately summarize and actually have hard data points on these events or policies. I would also require more time to compile that data and make it readable by data analysis.
