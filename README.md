@@ -1,7 +1,7 @@
 # Pyth-on-the-Border: A Data View of US Immigration Metrics
 
 # US_Southern_Border_Metrics
-A interactive Geopandas Map with a list of Checkpoints and Sector locations on an interacive Folium map that can be localized or drag-and-dropped into a web browser along with data analytics of the Immigration metrics throughout the US Southern Border.
+A interactive Geopandas Map with a list of Checkpoints and Sector locations on an interactive Folium map that can be localized or drag-and-dropped into a web browser along with data analytics of the Immigration metrics throughout the US Southern Border.
 
 # SPC Brandon Cooke, USARMY
 
