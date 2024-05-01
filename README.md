@@ -166,7 +166,7 @@ Trying to predict a future rate of immigration would be complex in itself to sho
 
 # Additional Capstone MVP
 
-For all the graphs and data analysis that was done to the data, I wanted to be able to show an actual representation of where these apprehensions took place. I created a visual, interactive Folium map with a Geofence plot of the US Southern Border that you can view on a webpage. It's similar to using Google Maps or other online mapping services. However, with Folium, you can create your own customized maps with different features and layers. I then took in an additional refined dataframe containing encounters (from 2021 - 2024) and published it with folium to show Station Chekpoints and Sector Offices all around the Southern Border.
+For all the graphs and data analysis that was done to the data, I wanted to be able to show an actual representation of where these apprehensions took place. I created a visual, interactive Folium map with a Geofence plot of the US Southern Border that you can view on a webpage. It's similar to using Google Maps or other online mapping services. However, with Folium, you can create your own customized maps with different features and layers. I then took in an additional refined dataframe containing encounters (from 2021 - 2024) and published it with folium to show Sector Chekpoints and Sector Offices all around the Southern Border.
 
 ![CPT2404291331-1074x835](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/74766509-3a3e-4501-8470-1e8b401e5144)
 Fig 13. Gif containing Folium mapping of CBP station checkpoints and sector offices.
