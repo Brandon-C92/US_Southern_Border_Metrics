@@ -20,7 +20,7 @@ United States immigration, apprehensions, and  polcies are a big talk of the tow
 
 <img width="1239" alt="DF before cleaning" src="https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/fa22c5bf-f833-4828-8533-a372d9f57cf1">
 
-Tracking down data to answer my questions was pretty simple, but also hard aty the same time. The Geospatial approach I took to explain my findings took me all over the internet to find the best approach to display my data in a comparable manner.
+Tracking down data to answer my questions was pretty simple, but also hard at the same time. The Geospatial approach I took to explain my findings took me all over the internet to find the best approach to display my data in a computable manner.
 
 # Final Capstone Goals
 - Explore and find out what the most common types of apprehension metrics we see at which border.
