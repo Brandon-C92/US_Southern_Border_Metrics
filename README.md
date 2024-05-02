@@ -182,6 +182,13 @@ Fig 14. Gif containing Folium mapping of CBP station checkpoints and sector offi
 
 * This allows someone to scroll around, view checkpoints around the Southern Border, and the top location sectors with total encounters logged for 2021 - March 2024.
 
+  
+I also went a head and obtained data from the United Nations on immigration data for people in other countries immigrating to the United States. I then cleaned the dataset and plotted with to show a interactive map:
+
+![CPT2405021233-1000x800](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/88162a05-51f4-414f-8725-58e209105ab9)
+
+* This interactive map visualizes migration data to the United States from various countries. Each point represents a country of origin for migrants, with size and color indicating the volume of migrants. Larger and darker points represent higher migrant numbers. The map aids in analyzing migration patterns and verifying hypotheses about the origins of migrants to the United States.
+
 # Final Considerations
 
 Final considerations for my capstone project could possibly include:
