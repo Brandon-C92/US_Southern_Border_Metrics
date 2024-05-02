@@ -2,7 +2,7 @@
 
 An interactive Geopandas Map with a list of Checkpoints and Sector locations on an interactive Folium map that can be localized or drag-and-dropped into a web browser along with data analytics of the Immigration metrics throughout the US Southern Border.
 
-# SPC Brandon Cooke, USARMY
+# SPC Brandon Cooke, US ARMY
 
 ![logo](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/fd3cd47c-0dcc-4a0e-b228-9afabc9d0b88)
 
