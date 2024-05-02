@@ -209,4 +209,10 @@ Final considerations for my capstone project could possibly include:
   
 * Personal Growth: Reflect on my learning journey throughout the project, including any challenges you encountered, lessons learned, and skills acquired.
 
-I believe with proper, ethical data collection, I would be able to work on the predictive models to refine and hone in the accuracy of the models findings to enable proper views in to a forecast of future apprehensions and immigration to the United States. This, along with formatting those previously discussed policy/ world happenings into data for analysis would lend into possible profitable predictive modeling.
+I believe, with a commitment to ethical data collection practices, there is substantial potential to enhance the accuracy and reliability of predictive models in forecasting future apprehensions and immigration trends to the United States.
+
+By ensuring the integrity and transparency of data collection processes, we can gather high-quality datasets that capture the nuances of border apprehensions and immigration patterns. This will enable us to refine and fine-tune predictive models, improving their predictive capabilities and providing more accurate forecasts.
+
+Moreover, incorporating additional data sources on policy changes, global events, and socioeconomic factors into our analysis will enrich our predictive modeling efforts. By systematically integrating these variables into our models, we can uncover valuable insights and anticipate the impact of policy decisions and external events on immigration trends.
+
+Ultimately, this approach lays the foundation for developing robust and profitable predictive models that offer valuable insights into future apprehensions and immigration dynamics, informing strategic decision-making and policy development processes.
