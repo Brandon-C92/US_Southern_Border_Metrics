@@ -35,16 +35,18 @@ I first wanted to see based on the preliminary data I obtained, what the rate of
 <img width="826" alt="Dataframe post cleaning" src="https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/4bbfdc92-24de-4138-b683-0465413081ee">
 
 After that I am able to do a basic plot to visualize the data:
-![1st scatterplot](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/d67727de-9bb3-4446-8ccc-6f9b835cbdc7)
+
+![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/a02b155c-c483-4c69-99a5-6f24cf2e486b)
 Fig 1. General number of unique columns in the dataset, over time.
 
 From that I can see the rate of apprehensions, and single that out to understand it better with a temporal line graph to showcase the rate of apprehensions captured thoughout the years:
+
 ![1st Vewing of Data](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/39e668bd-ce44-4b2a-8c55-3d8e6928945c)
 Fig 2. The rate of apprehensions collected (to) the United States in the dataset, over time.
 
 To explore the seasonal componet further, I decided to take a look at when in the year the uptick in apprehensions happen, and plotted that. I made the months based on ammount of data and picked out the changes from that since there was so much data to use.
 
-![Seasonal Analysis of Border Apprehensions(Month)](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/e203aae0-300b-448c-b47a-44770a21265c)
+![image](https://github.com/Brandon-C92/US_Southern_Border_Metrics/assets/161045627/beb9bb44-927d-4d6a-b31f-958e9b4821d2)
 Fig 3. The rate of apprehensions (in) the United States in the dataset, over time (by month).
 
 Looking at this this plot we can see that based on the data provided that the month of July seems to be the peak time that we experience an influx of immigrants or apprehensions to the United States. After seeing this I wanted to see where (what border) people are coming to America from, in essence where the encouters are taking place.
